@@ -1,0 +1,88 @@
+.add-project-cont{
+    
+    align-items: center;
+    padding: 40px 10px;
+    background-color: aliceblue;
+
+}
+@media screen and (max-width: 480px){  
+    h1{
+       
+       font-size: 16px !important;
+        
+    }
+    .add-project-cont{ 
+        margin-top: 30%;
+       background-color: whitesmoke;
+    }
+   div > .input-cont{
+        font-size: 13px !important;
+    }
+}
+.add-heading{
+    font-size: 40px;
+    color:rgb(1, 1, 59);
+    margin-top: 1.8em;
+   padding-left: 30%;
+   color: orange;
+   font-weight: bold;
+
+}
+form{
+    margin: 10px;
+    background-color:burlywood;
+    background-size: cover;
+    padding: 20px 0;
+    margin: 10px;
+    width: 30vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.input-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+input{
+   width: 80%; 
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+textarea{
+    width: 80%;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    height: 100px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
+    color: rgb(1, 53, 53);
+}
+.button-cont{
+    text-align: right;
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+}
+.add-button{
+    height: 40px;
+    width: 80px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: yellow;
+    font-size: 18px;
+    font-weight: 500;
+
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    color: orange;
+    top: 0;
+ 
+    z-index: 2000;
+}
+
+.header_left{
+    display: flex;
+    flex: 0.4;
+    margin-left: 20px;
+}
+
+.header_left >img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+.header_left > h1{
+    text-align: center;
+    font-family: Arial,  sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+.header_left > h1 > span{
+    color: orangered;
+}
+
+.header_right{
+    display: flex;
+    flex: 0.6;
+    justify-content: right;
+    align-items: center;
+}
+
+.header_right > a > h4{
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    font-family: "Crimson Text", serif;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+.header_right > a > h4:hover{
+    transform: scale(1.09);
+    background-color: orangered;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: "Crimson Text", serif;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header_rightButton{
+    background-color: rgb(243, 91, 175);
+    color: white;
+    width: 80px;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    padding: 2px 3px;
+
+}
+
+.header_rightButton:hover{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.header-right-select{
+    display: none;
+    margin-left: 100px;
+    background-color: transparent;
+    color: black;
+}
+
+.header-right-select>option{
+    color:#000000;
+    background-color: aqua;
+}
+
+
+@media screen and (max-width: 576px){
+    .header_left > h1{
+        font-size: 16px;
+    }
+    
+    .header_right{
+        display: none;
+    }
+    .header-right-select{
+        display: flex;
+    }
+    
+}
+@media screen and (max-width: 480px){ 
+    .header{
+        background-color: #000000;
+    }
+    .header-right-select{
+        color: white;
+      
+        margin-left: 10%;
+    }
+}

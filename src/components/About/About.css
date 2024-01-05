@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:ital,wght@0,300;1,600&display=swap');
+
+.topContent{
+    display: flex;
+   flex-direction: row;
+    height: 60vh;
+background-image: url("https://res.cloudinary.com/drdjty87p/image/upload/v1697472501/OIP_ubftj0.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+    color: #000;
+
+}
+
+.image{   
+    
+    width: 30vw;
+    
+    
+    margin-left: 230%;
+    margin-bottom: 50%;
+}
+
+.image:hover{
+    transform: scale(1.05);
+}
+
+.topContent_container{
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    padding-top: 30px;
+}
+
+.topContent_container > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+    color: dimgray;
+   
+}
+.topContent_container> a >button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.linkedinButton{
+    background-color: orangered;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.linkedinButton:hover{
+    background-color: #219104;
+    color: #fff;
+    font-weight: 600;
+    transform: scale(1.05);
+}
+
+.projectsButton{
+    color: orangered;
+    border: 1px solid black !important;
+    background-color: transparent;
+    padding: 9px 30px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 20px !important;
+}
+
+.projectsButton:hover{
+    color: #000;
+    background-color: #219104;
+    font-weight: 600;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 480px){  
+    .image{
+    
+        width: 50vw;   
+        margin-left: 230px !important;
+     
+           
+    }
+    .topContent{
+        background-image: none;
+    }
+    .topContent_container{
+        position: absolute;       
+        right: 30px;
+        align-items: center;
+       
+        margin-right: 50px;
+    }
+    .topContent_container > p{
+        font-size: 15px;
+       margin-left: 50px;
+    }
+    .topContent_container >h1{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+
+    .topContent_container> a >button{
+        margin-left: 20px;
+    }
+
+    .linkedinButton{
+        width: 130px;
+        font-size: 13px;
+        padding: 5px 10px;
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 50px;    
+    }
+
+    .projectsButton{
+        width: 100px;
+        font-size: 13px;
+        padding: 5px 15px;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .topContent{
+        display: column;
+        justify-content: center;
+           
+    }
+    .para{
+        padding-top: 50%;
+        font-size:15px;
+
+    }
+}
+.para{
+    color: orangered !important;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 50px;
+    text-shadow: black 1px 1px 1px;
+  }
+  
+  h1{
+    padding-right: 50%;
+  }

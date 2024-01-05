@@ -1,0 +1,59 @@
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    border:2px solid orange;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 37%;
+}
+
+
+
+.contact_container > h1{
+   padding-bottom: 20px;   
+   padding: 10px;
+   margin: 10px;
+   color: #020c47;
+   font-size: 30px;
+}
+
+.contact_container > h1:hover{
+    background-color: transparent;
+    border: 2px solid#000;
+    transform: scale(1.05);
+}
+
+
+.iconSize{
+  font-size: 60px; 
+  font-weight: 600;
+  color:#540297;
+}
+
+.iconSize:hover{
+  font-size: 60px; 
+  font-weight: bold;
+  color:hsl(332, 96%, 19%);
+}
+
+@media screen and (max-width: 576px){
+    .contact_container > h1{
+        font-size: 20px;
+        
+    }
+       
+.contact_container{
+   margin-left: 12%;
+  
+}
+
+
+}
+.copyright{
+    color:hsl(330, 1%, 43%)
+}

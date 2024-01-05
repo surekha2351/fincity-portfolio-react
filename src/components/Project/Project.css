@@ -1,0 +1,52 @@
+.projects-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 10px;
+    padding: 10px;
+   
+ 
+}
+.proj-heading{
+    font-size: 40px;
+    color:rgb(1, 1, 59);
+    margin-top: 1.8em;
+}
+.single-proj{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid teal;
+    
+}
+.description-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+}
+.image-size{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.view-button{
+    
+    outline: 0;
+    border-radius: 30px;
+    border-color: blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    font-weight: 600;
+}
+.order-reversed {
+    order: -1; 
+  }
